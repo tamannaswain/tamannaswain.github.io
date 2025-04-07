@@ -1,0 +1,214 @@
+body{
+    background-color: bisque;
+}
+.menubar{
+    list-style-type: none;
+    background-color: teal;
+
+}
+li{
+    display: inline;
+    padding: 18px 8px;
+    
+}
+
+li a{
+color: white;
+text-decoration: none;
+}
+a:hover{
+    /* pseudo-class: change the design of the element based on its state */
+     /* pseudo-element: change the design of the specific part of the element. For eg: p::firstline */
+    color: red;
+    background-color: bisque;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif}
+
+.me h2 {
+    font-size: 30px;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 10px;
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+width: 1200px;
+padding:5px
+}
+.about h4{
+    color: #f90505;
+	font-size: 20px;
+	margin-bottom: 50px;
+    
+}
+.about p{
+    line-height: 23px;
+	font-size: 16px;
+	margin-bottom: 40px;
+	letter-spacing: 0.2px;
+	word-spacing: 0.5px;
+    height: 70px;
+    width: 950px;
+}
+.about p span{
+    color: black;
+	font-weight: 600;
+	border-bottom: 2px solid red;
+}
+img{
+    float: right;
+    height: 430px;
+    border: 10px;
+    margin-top: -72px;
+    
+}
+.t1 table{
+    margin-bottom: 40px;
+    background-color: teal;
+  
+}
+.t1 table td {
+	padding: 10px;
+    border: 1px;
+    background-color: bisque;
+    
+}
+.t1 table th {
+	padding: 10px;
+    border: 1px;
+    background-color: teal;
+    color: white;
+    float: right;
+}
+.t2 table{
+    margin-bottom: 40px;
+    background-color: teal;
+  
+}
+.t2 table td {
+	padding: 10px;
+    border: 1px;
+    background-color: bisque;
+    
+}
+.t2 table th {
+	padding: 10px;
+    border: 1px;
+    background-color: teal;
+    color: white;
+    float: right;
+}
+.t1{
+    display: inline-block;
+    margin-top: 10px;
+    }
+.t2{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.low {
+    background-color: bisque;
+    border-color: red;
+    width: 370px;
+    padding: 10px;
+    border: 10px;
+    text-decoration: none;
+}
+.pro{
+   
+   text-decoration: none;}
+
+.con{
+text-decoration: none;
+float: right;
+margin-right: 40px;
+}
+
+.home{
+    text-decoration: none;
+    margin-right: 100px;
+}
+footer{
+    background-color: teal;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+li a{
+    color: white;
+    text-decoration: none;}
+.pro{
+    margin-right: 50px;
+}
+.home{
+    margin-left: 450px;
+}
+a:hover{
+    color: red;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+@media screen and (max-width:400px){
+    .menubar{
+        width:360px;
+        height:30px;
+     
+       padding: 0%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        margin-top: -12px;
+        
+    }
+    li a{
+        color: white;
+        text-decoration: none;
+        }
+    li a:hover{
+            color: red;
+            background-color: bisque;
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+    .crop{
+        height:250px;
+        width:300px;
+        overflow: hidden;
+        margin-left: -10px;
+        }
+    img{
+        margin: -80px -80px -40px 0px;
+       
+       
+        
+    }
+    .me{
+       display: none;
+    }
+    h4{
+        margin-left: 55px;
+    }
+    .about p{
+        width:340px;
+        margin-top: -30px;
+        margin-left: 15px;
+    }
+    .t1{
+        margin-top: 100px;
+    }
+    .t2{
+        margin-left: 0px;
+    }
+    table th {
+        padding: 10px;
+
+
+    }
+}

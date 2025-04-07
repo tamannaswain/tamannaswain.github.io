@@ -1,0 +1,123 @@
+body{
+    background-color: bisque;
+}
+.menubar{
+    list-style-type: none;
+    background-color: teal;
+
+}
+li{
+    display: inline;
+    padding: 18px 8px;
+    
+}
+
+li a{
+color: white;
+text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color: bisque;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+.boy{
+    position: absolute;
+}
+.face{
+    float: right;
+}
+h4{
+    font-size: 20px;
+    margin-left: 430px;
+    margin-top: 240px;
+    color: bisque;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 5000;
+    -webkit-text-stroke-color: bisque;
+    -webkit-text-stroke-width: 0.5px;
+    letter-spacing: 6px; 
+    background-color: teal;
+    width: 320px;
+    text-align: center;
+}
+h1 {
+    font-size: 70px;
+    margin-left: 350px;
+    margin-top: 130px;
+    color: teal;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 7000;
+    -webkit-text-stroke-color: teal;
+    -webkit-text-stroke-width: 5px;
+    letter-spacing: 10px; 
+}
+h2{
+    font-size: 100px;
+    margin-left: 450px;
+    margin-top: 260px;
+    color: teal;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 7000;
+    -webkit-text-stroke-color: teal;
+    -webkit-text-stroke-width: 5px;
+    letter-spacing: 10px; 
+}
+
+@media screen and (max-width:400px){
+    .menubar{
+        width:360px;
+        height:30px;
+     
+       padding: 0%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        margin-top: -12px;
+        
+    }
+    li a{
+        color: white;
+        text-decoration: none;
+        }
+    li a:hover{
+            color: red;
+            background-color: bisque;
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+    .boy{
+        height: 200px;
+        margin-left: -15px;
+    }
+
+    .face{
+        height: 400px;
+        margin-top: 250px;
+    }
+    h1{
+        margin-left: 10px;
+        margin-top: 180px;
+        font-size: 3em;
+        -webkit-text-stroke-width: 3px;
+    }
+    h2{
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+    h4{
+        margin-left: 20px;
+        margin-top: 250px;
+    }
+
+
+
+}
