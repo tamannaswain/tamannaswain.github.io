@@ -75,6 +75,8 @@ p{
     margin-top:300px;
     color: teal;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    text-align: center;
 }
 
 @media screen and (max-width:400px){
@@ -129,6 +131,7 @@ p{
 
 
 }
+
 
 
 
