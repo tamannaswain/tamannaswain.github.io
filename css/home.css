@@ -54,7 +54,7 @@ h1 {
     font-weight: 7000;
     -webkit-text-stroke-color: teal;
     -webkit-text-stroke-width: 5px;
-    letter-spacing: 10px; 
+    letter-spacing: 10px;
 }
 h2{
     font-size: 100px;
@@ -69,7 +69,7 @@ h2{
     letter-spacing: 10px; 
 }
 
-h4{
+h6{
     font-size: 40px;
     margin-left: 450px;
     margin-top: 260px;
@@ -134,4 +134,5 @@ h4{
 
 
 }
+
 
